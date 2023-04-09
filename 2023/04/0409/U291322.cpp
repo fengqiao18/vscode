@@ -18,8 +18,6 @@ int erfen(int x) {
   return 0;
 }
 int main() {
-  freopen("test.in", "r", stdin);
-  freopen("1.out", "w", stdout);
   cin >> n >> k;
   for (int i = 1; i <= n; i++) {
     cin >> a[i];
